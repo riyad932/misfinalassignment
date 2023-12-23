@@ -1,0 +1,46 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.country-card {
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out;
+}
+
+.country-card:hover {
+    transform: scale(1.05);
+}
+
+.more-details-btn {
+    margin-top: 10px;
+}
+
+
+.navbar {
+    background-color: #343a40;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+
+.footer {
+    background-color: #343a40;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .country-card {
+        margin: 10px 0;
+    }
+}
